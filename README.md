@@ -84,6 +84,8 @@ For detailed dataset information, see `ml-1m/README`.
 2. **Evaluate Different Components**:
    To test the effect of different numbers of NMF components on RMSE, uncomment the `test_n_component` call in `main.py`. This will generate a plot of RMSE versus component numbers.
 
+   ![Evaluate number components](assets/image.png)
+
 3. **Customize Recommendations**:
    Modify the `user_index` and `n` parameters in the `recommend_movie` function call in `main.py` to get recommendations for different users or a different number of movies.
 

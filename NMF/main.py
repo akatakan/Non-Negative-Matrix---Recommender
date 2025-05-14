@@ -82,7 +82,7 @@ def main():
     pivot = rating_data.pivot(columns="movie_id", index="user_id", values="rating")
     pivot_filled = pivot.fillna(0)
 
-    # test_n_component(pivot, pivot_filled)
+    test_n_component(pivot, pivot_filled)
     ratings_pred, _ = train(pivot, pivot_filled, 55)
 
     user_index = 66
